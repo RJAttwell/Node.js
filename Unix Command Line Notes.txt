@@ -1,0 +1,55 @@
+Unix Command Line Notes:
+
+- Command Line:
+    - Kernal: Actual program that interfaces with hardware. Core of OS.
+    - Shell: User interface that allows user to interact with kernal 
+    - Two different shells: GUI (Graphic User Interface) and Command Line Interface
+    - Command Line is an alternative way to interact with the kernal
+
+    - Bash shell (Bourne Again Shell)
+    - Why use command line? Speed and control. Deeper access
+
+- Techniques and Directory Navigation:
+    - ls = Prints a list of the directories inside a certain folder/location
+    - cd = change directory. Ex: cd Doc(uments) (Can press tab the autofill the rest of the word).
+    - Can go through entire path at the same time to get to the location you want Ex: cd/Documents/Learn/JavaScript 
+
+    - Can use last command you typed again by pressing up arrow
+    - Can use cd .. takes us back a level Ex: Go from /JavaScript to /Learn folder via cd ..
+    - Holding alt allows you to move your cursor to any point in a command
+    - CTRL + A = Takes you to start of command
+    - CTRL + E = Takes you to end of command
+    - pwd shows what folder you're in and the entire path (print working directory)
+
+
+- Creating, Opening and Removing Files:
+    - mkdir [Name] = Creates a new folder
+    - touch [Name].[extension] = Creates a new file 
+    - start [File Name] = Opens file 
+    - start [application] [File Name] = Opens file in a certain application Ex: start Atom text.txt 
+    
+    - rm [File name] = Removes file 
+    - rm * = Deletes all files inside a directory 
+    - rm -r [DirectoryName/]
+    - -rf - Does not ask for confirmation
+
+- Node Notes:
+    - Framework which allows us to use JavaScript to create a back-end
+    - Node.js allows us to use Javascript to interact directly with hardware of PC.
+    - Editors like Atom are based on Node.js.
+
+    - Can use node to run a file using "node [filename.extension]"
+
+    - Node REPL (Read Evaluation Print Loops) - Can run certain chunks of code 
+    - To access, just write node and press enter 
+    - REPL works basically the same as chrome console
+    - Can enter start of a command and press tab to see a list of commands 
+
+    - To exit the REPL, either type ".exit" or press CTRL + C twice
+    - To clear console, use "clear" 
+
+    - Native Node Modules:
+        - Libraries of code built into node 
+        - 
+
+Back-end Development:
