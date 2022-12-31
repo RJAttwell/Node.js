@@ -10,6 +10,22 @@ app.get("/", function(request, response){   //The / represents the root of our w
 
 //You can shorten request and response to 'req' and 'res'
 
+//Can call a different function for a different route request
+
+app.get("/contact", function(req, res){
+    res.send("Contact me at: RichardJAttwell@gmail.com");
+})
+
+//About page route
+
+app.get("/about", function(req, res){
+    res.send("26 year old Aerospace Engineering graduate. Worked in the semiconductor industry but currently studying to become a web developer. ");
+})
+
+app.get("/languagesandtech", function(req, res){
+    res.send("HTML, CSS, Javascript, Bootstrap, React, Angular, NodeJS, ExpressJS ");
+})
+
 app.listen(3000, function(){
     console.log("Server started on port 3000")
 }); 
