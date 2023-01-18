@@ -1,0 +1,24 @@
+APIs:
+
+- Application Programming Interfaces
+- A set of commands, functions, protocols and objects that we can use to create software 
+or interact with an external system 
+- Websites will allow you to access some information
+- jQuery is an API 
+- Focusing on APIs that allow me to interact with an external server. 
+
+API Endpoints, Paths and Parameters:
+
+- Endpoints
+    - An endpoint is different for every API and is a URL
+    - If you post the URL into your browser, the browser will make a GET request to the server and the server will
+    respond with a piece of data
+
+- Paths and Parameters
+    - Some APIs will allow you to customise what kind of data you would like to receive 
+    - Will have to edit the URL and have a specific path to display the data 
+    - Servers may not have planned out exactly what kind of request they will receive so they have to be flexible
+    - Parameters go at the end of a URL with (?contains=[query])
+    - First query has a ? in front of it and every query afterwards has an & symbol 
+    - Can narrow down using paths and parameters in order to get the specific kind of data we want 
+    
