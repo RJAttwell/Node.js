@@ -10,7 +10,7 @@ const app = express();
 app.get("/", function(req, res){
 
     //Must have the https://
-    const url = "https://api.openweathermap.org/data/2.5/weather?q=Dublin&lat=44.34&lon=10.99&units=metric&appid=9c9edcc138322b7cc7be2b3e360dc3fe";
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=Dublin&lat=44.34&lon=10.99&units=metric&appid=";
    
 
     //Use a callback function
@@ -42,7 +42,7 @@ app.get("/", function(req, res){
             //console.log(JSON.stringify(object));
         })
     });
-    
+
 })
 
 
