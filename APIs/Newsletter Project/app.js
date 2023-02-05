@@ -68,8 +68,14 @@ app.post("/failure", function(req, res){
     res.redirect("/")
 });
 
-app.listen(3000, function () {
+//To put webapp on Heroku, we cannot use the local port 3000 and instead must change to something else
+//Won't be able to run locally now though
+//To do both at the same time, add an OR (||) 
+app.listen(process.env.PORT || 3000, function () {
     console.log("Server is now running on port 3000");
 });
+
+//Must create a procfile. Been running with nodemon but with heroku will now use:
+//a Procfile with web: node app.js in to tell Heroku to run it 
 
 
