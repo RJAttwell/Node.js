@@ -39,6 +39,10 @@ Unix Command Line Notes:
     - Editors like Atom are based on Node.js.
 
     - Can use node to run a file using "node [filename.extension]"
+    
+    - INSTALL NODE:
+        - npm init
+        - To agree to all default values, use 'npm init -y'
 
     - Node REPL (Read Evaluation Print Loops) - Can run certain chunks of code 
     - To access, just write node and press enter 
@@ -50,6 +54,3 @@ Unix Command Line Notes:
 
     - Native Node Modules:
         - Libraries of code built into node 
-        - 
-
-Back-end Development:
